@@ -1,0 +1,11 @@
+{
+    "words" : [
+        { "word": "Vision", "blurValue": 0 },
+        { "word": "Blur", "blurValue": 20 },
+        { "word": "Focus", "blurValue": 40 },
+        { "word": "Clarity", "blurValue": 60 },
+        { "word": "Myopia", "blurValue": 80 },
+        { "word": "Sharp", "blurValue": 100 }
+      ]
+      
+}

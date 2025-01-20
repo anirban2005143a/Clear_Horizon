@@ -1,0 +1,14 @@
+{
+  "snellenChart": [
+    { "letters": "E", "baseSize": 87, "marks": 0.1 },
+    { "letters": "F P", "baseSize": 43.5, "marks": 0.2 },
+    { "letters": "T O Z", "baseSize": 34.8, "marks": 0.285714285 },
+    { "letters": "L P E D", "baseSize": 26.1, "marks": 0.4 },
+    { "letters": "P E C F D", "baseSize": 21.7, "marks": 0.5 },
+    { "letters": "E D F C Z P", "baseSize": 17.4, "marks": 0.666667 },
+    { "letters": "F E L O P Z D", "baseSize": 13.1, "marks": 0.8 },
+    { "letters": "D E F P O T E C", "baseSize": 10.9, "marks": 1 },
+    { "letters": "L E F O D P C T", "baseSize": 8.7, "marks": 1.3333333 },
+    { "letters": "F D P L T C E O", "baseSize": 6.5, "marks": 2 }
+  ]
+}
