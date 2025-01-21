@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Navbar from '../../components/navbar/navbar'
+import Navbar from '../../components/navbar/navbar.jsx'
 import { ToastContainer, toast } from 'react-toastify'
 
 const Feedback = () => {

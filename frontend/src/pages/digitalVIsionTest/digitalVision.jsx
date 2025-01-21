@@ -1,8 +1,7 @@
-import Navbar from "../../components/navbar/navbar";
+import Navbar from "../../components/navbar/navbar.jsx";
 import React, { useEffect, useRef, useState } from "react";
 import snellenLetterChart from "../../json/letterSize.json"
 import { TextField } from "@mui/material";
-import { Fireworks } from 'fireworks-js'
 import { useNavigate } from "react-router-dom";
 
 const SnellenChart = (props) => {

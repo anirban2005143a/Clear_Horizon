@@ -2,7 +2,6 @@ import Navbar from "../../components/navbar/navbar";
 import React, { useEffect, useRef, useState } from "react";
 import blur from "../../json/blurTest.json"
 import { TextField } from "@mui/material";
-import { Fireworks } from 'fireworks-js'
 import { useNavigate } from "react-router-dom";
 
 const BlurText = (props) => {

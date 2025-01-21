@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { HfInference } from "@huggingface/inference";
-import Loader from '../../components/loader/loader';
-import Navbar from '../../components/navbar/navbar';
+import Loader from '../../components/loader/loader.jsx';
+import Navbar from '../../components/navbar/navbar.jsx';
 import { ToastContainer , toast } from 'react-toastify';
 
 const Recomendation = (props) => {

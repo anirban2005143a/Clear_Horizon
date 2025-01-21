@@ -1,6 +1,6 @@
 import React , {useEffect} from 'react'
 import { useNavigate } from 'react-router-dom'
-import gsap from '../../utiles/gsap'
+import gsap from '../../utiles/gsap.js'
 import { useRef } from 'react'
 
 

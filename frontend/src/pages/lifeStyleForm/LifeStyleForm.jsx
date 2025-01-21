@@ -4,6 +4,7 @@ import Snowfall from 'react-snowfall'
 import Fireworks from 'fireworks-js';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
+import Navbar from '../../components/navbar/navbar.jsx';
 
 const LifestyleForm = (props) => {
 
@@ -211,6 +212,7 @@ const LifestyleForm = (props) => {
   return (
     <div id='lifeStyleForm' className="min-h-screen bg-gray-50 p-6" style={{ backgroundImage: " linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%)" }}>
       <ToastContainer/>
+      <Navbar/>
       {/* modal  */}
       {window.location.pathname === "/LifeStyle" && <button id='predictionModal' type="button" className="btn btn-primary hidden" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Launch demo modal
@@ -268,7 +270,7 @@ const LifestyleForm = (props) => {
         </div>
       </div>}
 
-      <div className="max-w-4xl mx-auto  rounded-lg shadow-md" style={{ backgroundImage: "linear-gradient(120deg, #fccb90 0%, #d57eeb 100%)" }}>
+      <div className="max-w-4xl mx-auto  rounded-lg shadow-md mt-[100px] " style={{ backgroundImage: "linear-gradient(120deg, #fccb90 0%, #d57eeb 100%)" }}>
         <div className="text-center border-b bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg p-6">
           <h1 className="text-2xl font-bold text-gray-800">Lifestyle Assessment Form</h1>
           <p className="text-gray-600 mt-2">Please complete all fields for accurate assessment</p>

@@ -2,17 +2,13 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-let pointer
-
 const MousePointer = (element, x, y) => {
-    pointer = element
     gsap.to(element, {
         x: x,
         y: y,
         duration: 1.5,
         ease: "back.out(5)",
     })
-
 }
 
 const HomeCenter = (component) => {
@@ -27,36 +23,13 @@ const HomeCenter = (component) => {
     })
 }
 
-const ScaleUpOnHover = (component) => {
-    component.addEventListener("mouseover", () => {
-        gsap.to(pointer, {
-            scale: 2,
-            duration: 2,
-            ease: "elastic.out(1,0.3)"
-        })
-    })
-
-}
-
-const ScaleDownOnHover = (component) => {
-    component.addEventListener("mouseout", () => {
-        gsap.to(pointer, {
-            scale: 1,
-            duration: 2,
-            ease: "elastic.out(1,0.3)"
-        })
-    })
-}
-
 const navBarElem = (component) => {
-//    gsap.fromTo(component , {
-//     translateY:"-50px",
+//    gsap.to(component , {
+//     translateY:"-500px",
 //     opacity:0,
-//    },{
-//     translateY:0,
-//     opacity:1,
 //     duration:2000,
-//     stagger:0.8
+//     stagger:0.5,
+//     ease: "elastic.out(1,0.8)"
 //    })
 }
 
@@ -123,8 +96,6 @@ const Feature3 = (component) => {
 export default {
     MousePointer,
     HomeCenter,
-    ScaleUpOnHover,
-    ScaleDownOnHover,
     navBarElem,
     HomeSecond,
     Feature1,

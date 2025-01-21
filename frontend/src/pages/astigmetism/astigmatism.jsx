@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../../components/navbar/navbar'
+import Navbar from '../../components/navbar/navbar.jsx'
 import { FormControl, FormControlLabel, Radio, RadioGroup } from '@mui/material'
 import testImg from "../../assets/astigmetism.png"
 import rightEye from "../../assets/righteye.png"

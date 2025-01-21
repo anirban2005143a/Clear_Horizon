@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import GetstartedBTN from './getstartedBTN'
-import gsap from '../../utiles/gsap'
+import GetstartedBTN from './getstartedBTN.jsx'
+import gsap from '../../utiles/gsap.js'
 
 const Center = () => {
 

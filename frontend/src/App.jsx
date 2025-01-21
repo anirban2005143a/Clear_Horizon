@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Home from './pages/home/home';
+import Home from './pages/home/home.jsx';
 import { createBrowserRouter , RouterProvider } from 'react-router-dom';
-import MousePointer from './components/mousePointer/MousePointer';
-import SnellenChart from './pages/digitalVIsionTest/digitalVision';
-import BlurText from './pages/blurTest/blurText';
-import Astigmatism from './pages/astigmetism/astigmatism';
-import LifestyleForm from './pages/lifeStyleForm/LifeStyleForm';
-import Recomendation from './pages/recomandation/recomendation';
-import Feedback from './pages/feedback/Feedback';
+import MousePointer from './components/mousePointer/MousePointer.jsx';
+import SnellenChart from './pages/digitalVIsionTest/digitalVision.jsx';
+import BlurText from './pages/blurTest/blurText.jsx';
+import Astigmatism from './pages/astigmetism/astigmatism.jsx';
+import LifestyleForm from './pages/lifeStyleForm/LifeStyleForm.jsx';
+import Recomendation from './pages/recomandation/recomendation.jsx';
+import Feedback from './pages/feedback/Feedback.jsx';
 
 const App = () => {
 

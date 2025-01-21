@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
 import * as THREE from "three";
 import NETWORK from "vanta/dist/vanta.net.min";
-import Center from "./center";
-import Navbar from "../../components/navbar/navbar";
-import gsap from "../../utiles/gsap"
+import Center from "./center.jsx";
+import Navbar from "../../components/navbar/navbar.jsx";
+import gsap from "../../utiles/gsap.js"
 import eyeImg from "../../assets/eye.png"
-import Footer from "../../components/footer/Footer";
-import Features from "./features";
+import Footer from "../../components/footer/Footer.jsx";
+import Features from "./features.jsx";
 
 const Home = () => {
 
