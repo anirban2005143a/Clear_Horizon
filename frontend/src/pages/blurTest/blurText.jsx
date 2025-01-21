@@ -33,7 +33,7 @@ const BlurText = (props) => {
 
         const obj = props.dataObj
         obj["Blur Sensitivity"] = lastRes
-        console.log(obj)
+        // console.log(obj)
         props.setdataObj(obj)
         navigate("/LifeStyle")
     }

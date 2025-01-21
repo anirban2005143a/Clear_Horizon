@@ -93,7 +93,7 @@ const LifestyleForm = (props) => {
 
   const getprediction = async () => {
     const obj1 = props.dataObj
-    console.log(obj1)
+    // console.log(obj1)
     const obj = {
       "Snellen Chart": obj1["Snellen Chart"],
       "Astigmatism": obj1.Astigmatism,
@@ -122,7 +122,7 @@ const LifestyleForm = (props) => {
     });
 
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
 
     if (data.error) {
       toast.error(data.error, {

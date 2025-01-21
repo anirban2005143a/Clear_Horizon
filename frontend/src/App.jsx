@@ -45,7 +45,7 @@ const App = () => {
     
   ])
 
-  console.log(dataObj)
+  // console.log(dataObj)
 
   return (
     <div className=' overflow-x-hidden '>

@@ -20,7 +20,7 @@ const Feedback = () => {
         })
       })
       const data = await res.json()
-      console.log(data);
+      // console.log(data);
       setisProgress(false)
       data.error ? showToast(data.message, 1) : showToast(data.message, 0)
     } catch (error) {

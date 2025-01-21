@@ -53,7 +53,7 @@ const Recomendation = (props) => {
   const organizeResponse = (response) => {
 
     const lines = response.split("\n");
-    console.log(lines)
+    // console.log(lines)
 
     return lines.map((line, index) => {
       if (line.startsWith("**") && line.endsWith("**")) {

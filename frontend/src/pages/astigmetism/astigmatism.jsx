@@ -129,7 +129,7 @@ const Astigmatism = (props) => {
                                 } else {
                                     const obj = props.dataObj
                                     obj["Astigmatism"] = value1 || value2
-                                    console.log(obj)
+                                    // console.log(obj)
                                     props.setdataObj(obj)
                                     navigate("/blur/test")
                                 }

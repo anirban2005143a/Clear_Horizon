@@ -33,7 +33,7 @@ const SnellenChart = (props) => {
         }
         const obj = props.dataObj
         obj["Snellen Chart"] = lastres
-        console.log(obj)
+        // console.log(obj)
         props.setdataObj(obj)
         navigate("/astigmatism/test")
     }
