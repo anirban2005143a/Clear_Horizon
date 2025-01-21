@@ -111,6 +111,7 @@ const LifestyleForm = (props) => {
       "BMI": formData.bmi,
       "Reading Distance": formData.readingDistance
     }
+    console.log(obj)
     props.setdataObj(obj)
 
     const res = await fetch(`${import.meta.env.VITE_REACT_FLASK_URL}/predict`, {
@@ -120,9 +121,9 @@ const LifestyleForm = (props) => {
       },
       body: JSON.stringify({ features: obj }), // Wrap in `features` key
     });
-
+    console.log(res)
     const data = await res.json();
-    // console.log(data);
+    console.log(data);
 
     if (data.error) {
       toast.error(data.error, {
