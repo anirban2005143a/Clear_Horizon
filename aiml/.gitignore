@@ -23,8 +23,6 @@ venv/
 .env/
 .venv/
 
-# Ignore model files
-*.h5
 
 # Ignore log files
 *.log
