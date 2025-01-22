@@ -25,7 +25,6 @@ venv/
 
 # Ignore model files
 *.h5
-*.pkl
 
 # Ignore log files
 *.log
