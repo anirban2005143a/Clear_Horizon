@@ -52,6 +52,7 @@ const Recomendation = (props) => {
 
   const organizeResponse = (response) => {
 
+    console.log(response)
     const lines = response.split("\n");
     // console.log(lines)
 
